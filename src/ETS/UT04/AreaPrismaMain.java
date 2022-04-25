@@ -2,9 +2,11 @@ package ETS.UT04;
 
 import java.util.ArrayList;
 
+/**
+ * Clase que crea los objetos Prisma
+ */
 public class AreaPrismaMain {
     public static void main(String[] args) {
-
         ArrayList<Prisma> listaPrisma = new ArrayList<>();
 
         for (int i = 0; i<3; i++){
